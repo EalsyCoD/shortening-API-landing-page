@@ -1,6 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle `
+:root{
+   --btn-color: hsl(257, 7%, 63%);
+}
+
 *{
     font-family: 'Poppins', sans-serif;
 }
