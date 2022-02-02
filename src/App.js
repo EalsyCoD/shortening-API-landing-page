@@ -6,6 +6,7 @@ import { ThemeProvider } from 'styled-components'
 
 import GlobalStyle from './styles/global'
 import Header from './components/Header';
+import Main from './components/Main';
 
 import color from './styles/themes/color'
 
@@ -21,6 +22,7 @@ return (
   <ThemeProvider theme={theme}>
   <GlobalStyle />
   <Header toggleTheme={toggleTheme} />
+  <Main />
   </ThemeProvider>
  
   
