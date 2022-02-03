@@ -15,14 +15,17 @@ height: 550px;
 
 `
 export const Title = styled.h1`
+position: relative;
+max-width: 400px;
 display: block;
-margin-left: 40%;
+margin-left: 720px;
 margin-top: -80px;
 
 
 `
 export const Lable = styled.p`
-margin-left: 35%;
+max-width: 400px;
+margin-left: 630px;
 max-width: 500px;
 text-align: center;
 color: ${(props) => props.theme.colors.text};
@@ -30,7 +33,7 @@ color: ${(props) => props.theme.colors.text};
 `
 export const ImgBrand = styled.img`
 position: relative;
-margin-left: 20px;
+margin-left: 65px;
 top: -270px;
 right: -367px;
 `
@@ -40,7 +43,7 @@ width: 300px;
 height: 200px;
 display: block;
 border: 4px solid #fff;
-margin-left: 350px;
+margin-left: 390px;
 margin-top: 100px;
 background-color: #fff;
 border-radius: 10px;
@@ -52,12 +55,12 @@ margin-left: 650px;
 font-size: 20px;
 max-width:300px;
 top:-240px;
-right: 270px;
+right: 232px;
 `
 export const ContextBrand = styled.p`
 position: relative;
 top: -240px;
-margin-left: 380px;
+margin-left: 420px;
 max-width: 260px;
 color: ${(props) => props.theme.colors.text};
 font-size:14px;
@@ -67,7 +70,7 @@ font-size:14px;
 export const BorderBrand = styled.p`
 position: block;
   margin-top: -465px;
-  margin-left: 370px;
+  margin-left: 415px;
   width: 4em;
   height: 4em;
   border: 2px solid ;
@@ -80,16 +83,16 @@ width: 300px;
 height: 200px;
 display: block;
 border: 4px solid #fff;
-margin-left: 700px;
+margin-left: 750px;
 margin-top: -20px;
 background-color: #fff;
 border-radius: 10px;
 `
 export const ImgDetailed = styled.img`
 position: relative;
-margin-left: 20px;
+margin-left: 60px;
 top: -265px;
-right: -718px;
+right: -733px;
 `
 export const Detailed = styled.h1`
 position: relative;
@@ -97,12 +100,12 @@ margin-left: 650px;
 font-size: 20px;
 max-width:300px;
 top:-240px;
-right: -80px;
+right: -125px;
 `
 export const ContextDetailed = styled.p`
 position: relative;
 top: -240px;
-margin-left: 730px;
+margin-left: 775px;
 max-width: 260px;
 color: ${(props) => props.theme.colors.text};
 font-size:14px;
@@ -110,7 +113,7 @@ font-size:14px;
 export const BorderDetailed = styled.p`
 position: block;
 margin-top: -460px;
-margin-left: 720px;
+margin-left: 775px;
 width: 4em;
 height: 4em;
 border: 2px solid ;
@@ -122,7 +125,7 @@ width: 300px;
 height: 200px;
 display: block;
 border: 4px solid #fff;
-margin-left: 1050px;
+margin-left: 1090px;
 margin-top: -20px;
 background-color: #fff;
 border-radius: 10px;
@@ -131,7 +134,7 @@ export const ImgFully = styled.img`
 position: relative;
 margin-left: 20px;
 top: -250px;
-right: -1068px;
+right: -1108px;
 `
 export const Fully = styled.h1`
 position: relative;
@@ -139,12 +142,12 @@ margin-left: 650px;
 font-size: 20px;
 max-width:300px;
 top:-225px;
-right: -430px;
+right: -465px;
 `
 export const ContextFully = styled.p`
 position: relative;
 top: -220px;
-margin-left: 1080px;
+margin-left: 1115px;
 max-width: 250px;
 color: ${(props) => props.theme.colors.text};
 font-size:14px;
@@ -152,7 +155,7 @@ font-size:14px;
 export const BorderFully = styled.p`
 position: block;
   margin-top: -450px;
-  margin-left: 1075px;
+  margin-left: 1115px;
   width: 4em;
   height: 4em;
   border: 2px solid ;
@@ -163,16 +166,16 @@ position: block;
 export const LineF = styled.p`
 position: relative;
 top: -95px;
-right: -658px;
+right: -698px;
 border-bottom: 6px solid ;
 color: ${(props) => props.theme.colors.topButton};
-width: 41px;
+width: 51px;
 `
 export const LineB = styled.p`
 position: relative;
 top: -130px;
-right: -1008px;
+right: -1057px;
 border-bottom: 6px solid ;
 color: ${(props) => props.theme.colors.topButton};
-width: 42px;
+width: 33px;
 `

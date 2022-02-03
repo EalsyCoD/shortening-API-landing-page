@@ -3,11 +3,11 @@ import styled from 'styled-components'
 
 
 export const Container = styled.header`
-max-width: 2000px;
-margin-left: px;
+max-width: 2100px;
+
 `
 export const Wrapper = styled.div`
-
+padding-top: 3px;
 height: 250px;
 margin-top: -25px;
 
@@ -16,6 +16,7 @@ export const Title = styled.h1`
 position: relative;
 padding-top: 40px;
 display: flex;
+top: -250px;
 margin-left: 700px;
 color: white;
 
@@ -23,11 +24,12 @@ color: white;
 export const Button = styled.button`
 &{
     position: relative;
-    dispay:block;
+    
     background-color: white;
-    height: 45px;
-    width: 120px;
-    margin-left: 830px;
+    height: 40px;
+    width: 150px;
+    top: -250px;
+    margin-left: 820px;
     border-radius: 20px;
     border: none;
     color: white;
@@ -43,12 +45,12 @@ export const Button = styled.button`
 `
 
 export const Frame = styled.img`
-position: absolute;
+position: relative;
 background-color: white;
-background-color: #00003E;
-width: 1900px;
+background-color: ${(props) => props.theme.colors.secondary};
+width: 2000px;
 height: 250px;
-top: 1655px;
-right: 0px;
+top: 0px;
+right: 20px;
 
 `

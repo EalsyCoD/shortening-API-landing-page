@@ -2,13 +2,14 @@ import styled from 'styled-components'
 
 
 export const Frame = styled.img`
-position: absolute;
+max-width: 1000px;
+position: relative;
 background-color: white;
-background-color: #00003E;
+background-color: ${(props) => props.theme.colors.secondary};
 width: 1000px;
 height: 120px;
-top: 800px;
-right: 500px;
+top: 420px;
+right: -400px;
 border-radius: 15px;
 
 `

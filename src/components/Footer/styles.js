@@ -7,7 +7,7 @@ max-width: 2000px;
 margin-left: -20px;
 `
 export const Wrapper = styled.div`
-background-color: black;
+background-color: ${(props) => props.theme.colors.bgfooter};
 height: 400px;
 width: 2000px;
 

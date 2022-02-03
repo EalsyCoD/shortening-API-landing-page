@@ -15,7 +15,7 @@ justify-content: space-between;
 
 
 export const Title  = styled.h1`
-margin-left: 350px;
+margin-left: 400px;
 
 `
 export const Label = styled.p`
@@ -35,7 +35,7 @@ export const LoginButton = styled.button`
 background-color: white;
 border: none;
 margin-top: 25px;
-margin-left: 400px;
+margin-left: 360px;
 height: 36px;
 font-weight: 800;
 cursor: pointer;

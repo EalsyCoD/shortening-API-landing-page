@@ -9,23 +9,25 @@ position: relative;
 top: 330px;
 right: -440px;
 
-
-
 `
 export const Input = styled.input`
+&{
 width: 800px;
 height: 40px;
 border-radius: 10px;
-color: red;
+color:red;
+}
 
 `
 export const Button = styled.button`
 &{
+
+margin-left: 15px;
 padding: 5px;
 background-color: white;
-height: 40px;
-width: 90px;
-border-radius: 15px;
+height: 45px;
+width: 110px;
+border-radius: 10px;
 border: none;
 color: white;
 font-weight: 700;
