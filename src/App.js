@@ -7,7 +7,10 @@ import { ThemeProvider } from 'styled-components'
 import GlobalStyle from './styles/global'
 import Header from './components/Header';
 import Main from './components/Main';
+import Form from './components/Form';
+import Api from './components/Api';
 import Advanced from './components/Advenced-Statistics';
+import { Shortens } from './components/Shortens/index'
 
 import color from './styles/themes/color'
 
@@ -24,6 +27,9 @@ return (
   <GlobalStyle />
   <Header toggleTheme={toggleTheme} />
   <Main />
+  <Form />
+  <Api />
+  <Shortens />
   <Advanced />
   </ThemeProvider>
  

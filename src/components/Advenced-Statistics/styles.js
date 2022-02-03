@@ -17,6 +17,7 @@ height: 600px;
 export const Title = styled.h1`
 display: block;
 margin-left: 40%;
+margin-top: -80px;
 
 
 `
