@@ -11,6 +11,8 @@ import Form from './components/Form';
 import Api from './components/Api';
 import Advanced from './components/Advenced-Statistics';
 import { Shortens } from './components/Shortens/index'
+import Boost from './components/Boost';
+
 
 import color from './styles/themes/color'
 
@@ -31,6 +33,7 @@ return (
   <Api />
   <Shortens />
   <Advanced />
+  <Boost />
   </ThemeProvider>
  
   

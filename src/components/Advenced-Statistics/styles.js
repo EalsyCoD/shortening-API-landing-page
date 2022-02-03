@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 export const Container = styled.header`
-padding-top: 350px;
+padding-top: 310px;
 
 
 `
@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
 display: block;
 background-color: #EEF0F6;
 padding-top:250px;
-height: 600px;
+height: 550px;
 
 `
 export const Title = styled.h1`
@@ -31,7 +31,7 @@ color: ${(props) => props.theme.colors.text};
 export const ImgBrand = styled.img`
 position: relative;
 margin-left: 20px;
-top: -248px;
+top: -270px;
 right: -367px;
 `
 export const FrameBrand = styled.p`
@@ -51,12 +51,12 @@ position: relative;
 margin-left: 650px;
 font-size: 20px;
 max-width:300px;
-top:-220px;
+top:-240px;
 right: 270px;
 `
 export const ContextBrand = styled.p`
 position: relative;
-top: -220px;
+top: -240px;
 margin-left: 380px;
 max-width: 260px;
 color: ${(props) => props.theme.colors.text};
@@ -66,7 +66,7 @@ font-size:14px;
 
 export const BorderBrand = styled.p`
 position: block;
-  margin-top: -440px;
+  margin-top: -465px;
   margin-left: 370px;
   width: 4em;
   height: 4em;
@@ -88,7 +88,7 @@ border-radius: 10px;
 export const ImgDetailed = styled.img`
 position: relative;
 margin-left: 20px;
-top: -246px;
+top: -265px;
 right: -718px;
 `
 export const Detailed = styled.h1`
@@ -96,12 +96,12 @@ position: relative;
 margin-left: 650px;
 font-size: 20px;
 max-width:300px;
-top:-225px;
+top:-240px;
 right: -80px;
 `
 export const ContextDetailed = styled.p`
 position: relative;
-top: -220px;
+top: -240px;
 margin-left: 730px;
 max-width: 260px;
 color: ${(props) => props.theme.colors.text};
@@ -109,7 +109,7 @@ font-size:14px;
 `
 export const BorderDetailed = styled.p`
 position: block;
-margin-top: -440px;
+margin-top: -460px;
 margin-left: 720px;
 width: 4em;
 height: 4em;
@@ -162,7 +162,7 @@ position: block;
 
 export const LineF = styled.p`
 position: relative;
-top: -80px;
+top: -95px;
 right: -658px;
 border-bottom: 6px solid ;
 color: ${(props) => props.theme.colors.topButton};
@@ -170,7 +170,7 @@ width: 41px;
 `
 export const LineB = styled.p`
 position: relative;
-top: -120px;
+top: -130px;
 right: -1008px;
 border-bottom: 6px solid ;
 color: ${(props) => props.theme.colors.topButton};

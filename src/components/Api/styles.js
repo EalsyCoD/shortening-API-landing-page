@@ -20,6 +20,7 @@ color: red;
 
 `
 export const Button = styled.button`
+&{
 padding: 5px;
 background-color: white;
 height: 40px;
@@ -31,4 +32,9 @@ font-weight: 700;
 
 cursor: pointer;
 background-color: ${(props) => props.theme.colors.topButton};
+}
+&:hover{
+    opacity: 0.8
+    
+}
 `
