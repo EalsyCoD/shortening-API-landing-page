@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 export const Container = styled.header`
 max-width: 2000px;
+margin-left: px;
 `
 export const Wrapper = styled.div`
 
@@ -49,5 +50,5 @@ width: 1900px;
 height: 250px;
 top: 1655px;
 right: 0px;
-border-radius: 15px;
+
 `

@@ -12,7 +12,7 @@ import Api from './components/Api';
 import Advanced from './components/Advenced-Statistics';
 import { Shortens } from './components/Shortens/index'
 import Boost from './components/Boost';
-
+import Footer from './components/Footer'
 
 import color from './styles/themes/color'
 
@@ -30,10 +30,11 @@ return (
   <Header toggleTheme={toggleTheme} />
   <Main />
   <Form />
-  <Api />
   <Shortens />
+  <Api />
   <Advanced />
   <Boost />
+  <Footer />
   </ThemeProvider>
  
   
