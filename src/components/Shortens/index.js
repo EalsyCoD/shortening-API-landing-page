@@ -15,7 +15,6 @@ const Shortens = () => {
         <Section>
             <Container>
                 {links.map(item =>(
-                
                     <Wrapper
                     key={item.code}
 

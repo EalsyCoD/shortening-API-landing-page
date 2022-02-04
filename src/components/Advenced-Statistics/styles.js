@@ -3,16 +3,13 @@ import styled from 'styled-components'
 
 
 export const Container = styled.header`
-padding-top: 310px;
-
-
+padding-top: 60px;
 `
 export const Wrapper = styled.div`
 display: block;
 background-color: #EEF0F6;
 padding-top:250px;
 height: 550px;
-
 `
 export const Title = styled.h1`
 position: relative;
@@ -20,8 +17,6 @@ max-width: 400px;
 display: block;
 margin-left: 720px;
 margin-top: -80px;
-
-
 `
 export const Lable = styled.p`
 max-width: 400px;
@@ -29,7 +24,6 @@ margin-left: 630px;
 max-width: 500px;
 text-align: center;
 color: ${(props) => props.theme.colors.text};
-
 `
 export const ImgBrand = styled.img`
 position: relative;
@@ -38,7 +32,6 @@ top: -270px;
 right: -367px;
 `
 export const FrameBrand = styled.p`
-
 width: 300px;
 height: 200px;
 display: block;
@@ -47,7 +40,6 @@ margin-left: 390px;
 margin-top: 100px;
 background-color: #fff;
 border-radius: 10px;
-
 `
 export const Brand = styled.h1`
 position: relative;

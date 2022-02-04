@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form'
 import { createShortLink, selectLoading } from '../../store/slice/linkSlice'
 
 
-import { Container,  Form, Input, Button } from './styles'
+import { Container,  Form, Input, Button, Section, WraperError } from './styles'
 
     const Api = () => {
       const loading = useSelector(selectLoading)
@@ -26,8 +26,11 @@ import { Container,  Form, Input, Button } from './styles'
        
       
         return (
-          <Container>
-            <Form onSubmit={handleSubmit(onSubmit)}>
+          <Section>
+            <Container>
+            <Form 
+            onSubmit={handleSubmit(onSubmit)}
+            >
               <Input
                 type="url"
                 placeholder="Shorten a link here..."
@@ -39,19 +42,20 @@ import { Container,  Form, Input, Button } from './styles'
                     },
                 })}
                 style={{
-                  outlineColor: errors.Url ? 'var(--secondary-300)' : 'currentColor',
+                  outlineColor: errors.Url ? 'var(--secondaryy)' : 'currentColor',
                   outlineWidth: errors.Url ? '4px' : '1px',
                 }}
                 disabled={loading === 'loading'}
               />
               <Button type="submit" disabled={loading === 'loading'}>Shorten it!</Button>
               {errors.Url && (
-                  <div className='className={classes.error}'>
+                  <WraperError>
                       {errors.Url.message}
-                  </div>
+                  </WraperError>
               )}
             </Form>
-          </Container>
+            </Container>
+          </Section>
         )
       }
       

@@ -15,7 +15,7 @@ width: 2000px;
 `
 export const Logo = styled.img`
 margin-top: 80px;
-margin-left: 350px;
+margin-left: 400px;
 `
 export const Features = styled.header`
 color: white;

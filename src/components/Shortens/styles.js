@@ -22,20 +22,23 @@ export const Button = styled.button`
         
     }
 `
-export const Wrapper = styled.button`
+export const Wrapper = styled.div`
 height: 200px;
 width: 200px;
+background-color: black;
 `
 
 export const Span = styled.button`
 position: relative;
+background-color: black;
 `
-export const Container  = styled.button`
+export const Container  = styled.div`
 height: 200px;
+background-color: black;
 `
 
 export const Section  = styled.button`
 position: relative;
-padding: 3rem 0 0;
-`
+background-color: black;
 
+`

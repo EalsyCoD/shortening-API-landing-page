@@ -1,8 +1,13 @@
 import React from 'react'
 
+
 import { Frame, Container, Wrapper } from './styles'
 
+
+
+
 const Form = () => {
+  
   return(
     <Container>
       <Wrapper>
