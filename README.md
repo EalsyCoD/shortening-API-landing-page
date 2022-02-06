@@ -9,6 +9,6 @@ To start it
 
 Then
 
-`npm run server` and `npm start`
+`npm start`
 
 ### Coded by [EalsyCoD](https://github.com/EalsyCoD)
