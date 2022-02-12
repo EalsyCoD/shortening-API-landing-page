@@ -1,34 +1,48 @@
-import React from 'react'
+import React, { useState } from 'react'
+import classes from './Shortens.module.scss'
 import { useSelector } from 'react-redux'
+import {Button} from '../Button/index'
 import { selectLinks } from '../../store/slice/linkSlice'
+import { motion, AnimatePresence } from 'framer-motion';
 
-
-import { Section,Container, Wrapper, Span, Button } from './styles'
 
 const Shortens = () => {
-    const links = useSelector(selectLinks)
+    const [copiedLinks, setCopiedLink] = useState(null);
+    const links = useSelector(selectLinks);
 
-    if (!links?.lenght) return null
+    const copyToClipboard = (link) => {
+        navigator.clipboard.writeText(link).then(() => {
+            setCopiedLink(link);
+        })
+    }
 
+    if (!links?.length) return null;
 
     return (
-        <Section>
-            <Container>
-                {links.map(item =>(
-                    <Wrapper
-                    key={item.code}
-
-                    >
-                        <Span>{item.original_link}</Span>
-                        <Span>{item.full_shorrt_link2}</Span>
-                        <Button variant="square">Copy</Button>
-                        </Wrapper>
-                        
+        <section className={classes.Shortens}>
+            <div className='container'>
+                {links.map(item => (
+                    <AnimatePresence key={item.code}>
+                        <motion.div
+                            className={classes.item}
+                            data-active={copiedLinks === item.full_short_link2}
+                            initial={{opacity: 0, height: 0}}
+                            animate={{opacity: 1, height: 'auto'}}
+                        >
+                            <span>{item.original_link}</span>
+                            <span>{item.full_short_link2}</span>
+                            <Button
+                                variant="square"
+                                onClick={() => copyToClipboard(item.full_short_link2)}
+                            >
+                                {copiedLinks === item.full_short_link2 ? 'Copied!' : 'Copy'}
+                            </Button>
+                        </motion.div>
+                    </AnimatePresence>
                 ))}
-            </Container>
-        </Section>
-    )
-}
+            </div>
+        </section>
+    );
+};
 
-
-export default Shortens
+export { Shortens }

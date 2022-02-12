@@ -1,0 +1,28 @@
+.button {
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    line-height: 2.5;
+    padding: 0 1.5rem;
+    font-weight: var(--fw-bold);
+    font-family: var(--family);
+    cursor: pointer;
+
+    transition: ease-in-out 350ms;
+
+    &:hover {
+        background-color: aquamarine;
+    }
+}
+
+.link {
+    background-color: transparent;
+    
+
+    &:hover {
+        color: var(--gray-900);
+        background-color: transparent;
+    }
+}
+
