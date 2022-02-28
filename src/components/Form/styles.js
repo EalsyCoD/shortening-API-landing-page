@@ -11,6 +11,13 @@ height: 120px;
 top: 180px;
 right: -400px;
 border-radius: 15px;
+@media(max-width: 425px){
+max-width: 400px;
+margin-left: -400px;
+margin-top: -110px;
+font-size: 45px;
+
+}
 `
 export const Container = styled.header`
 `

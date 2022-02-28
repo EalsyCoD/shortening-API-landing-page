@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <Container>
-            <Wrapper>
+        <Wrapper>
                 <Title>Shortly</Title>
                 <Label>Features</Label>
                 <Label>Pricing</Label>

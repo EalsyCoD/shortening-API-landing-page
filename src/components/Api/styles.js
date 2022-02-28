@@ -16,12 +16,22 @@ export const Form = styled.form`
 position: relative;
 top: 85px;
 right: -440px;
+@media(max-width: 425px){
+left: 10px;
+top: 70px;
+
+
+}
 `
 export const Input = styled.input`
 &{
 width: 800px;
 height: 40px;
 border-radius: 10px;
+}
+@media(max-width: 425px){
+width: 350px;
+padding-right: 10px;
 
 }
 
@@ -43,5 +53,11 @@ background-color: ${(props) => props.theme.colors.topButton};
 &:hover{
     opacity: 0.8
     
+}
+@media(max-width: 425px){
+position: relative;
+left: 120px;
+top: 5px;
+
 }
 `

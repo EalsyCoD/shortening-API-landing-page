@@ -5,6 +5,7 @@ import styled from 'styled-components'
 export const Container = styled.header`
 max-width: 2100px;
 
+
 `
 export const Wrapper = styled.div`
 padding-top: 3px;
@@ -19,7 +20,11 @@ display: flex;
 top: -250px;
 margin-left: 700px;
 color: white;
-
+@media(max-width: 425px){
+    font-size: 30px;
+margin-top: 30px;
+margin-left: 50px;
+}
 `
 export const Button = styled.button`
 &{
@@ -42,6 +47,10 @@ export const Button = styled.button`
         opacity: 0.8
         
     }
+@media(max-width: 425px){
+margin-top: -10px;
+margin-left: 130px;
+}
 `
 
 export const Frame = styled.img`
@@ -52,5 +61,7 @@ width: 2000px;
 height: 250px;
 top: 0px;
 right: 20px;
-
+@media(max-width: 425px){
+width: 426px;
+}
 `

@@ -21,7 +21,12 @@ font-size:85px;
 margin-left: 400px;
 height: 50px
 max-width: 800px;
-
+@media(max-width: 425px){
+margin-left: 0px;
+margin-top: 500px;
+font-size: 45px;
+text-align: center
+}
 
 `
 
@@ -31,7 +36,11 @@ margin-left: 400px;
 max-width: 550px;
 font-size: 24px;
 color: ${(props) => props.theme.colors.text};
-
+@media(max-width: 425px){
+margin-left: 0px;
+margin-top: -10px;
+text-align: center
+}
 `
 
 
@@ -54,7 +63,11 @@ export const Button = styled.button`
     &:hover{
         opacity: 0.5
     }
-    
+   @media(max-width: 425px){
+margin-left: 135px;
+margin-top: 0px;
+
+} 
 `
 
 
@@ -63,5 +76,10 @@ position: absolute;
 top: 140px;
 left:1070px;
 
+@media(max-width: 425px){
+left: 0px;
+width: 410px;
+height: 300px;
+}
 `
 

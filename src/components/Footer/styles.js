@@ -11,18 +11,29 @@ background-color: ${(props) => props.theme.colors.bgfooter};
 height: 400px;
 width: 2000px;
 
+@media(max-width: 425px){
+    width: 100%;
+height: 100%;
+}
 
 `
 export const Logo = styled.img`
 margin-top: 80px;
 margin-left: 400px;
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 165px;
+}
 `
 export const Features = styled.header`
 color: white;
 margin-left: 730px;
 margin-top: -30px;
 font-size: 15px;
-
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 190px;
+}
 `
 export const LinkShortening = styled.header`
 &{
@@ -34,6 +45,10 @@ font-size: 15px;
 }
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
+}
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 170px;
 }
 `
 export const BrandedLinks = styled.header`
@@ -47,6 +62,10 @@ margin-top: 10px;
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
 }
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 175px;
+}
 `
 export const Analytics = styled.header`
 &{
@@ -59,12 +78,20 @@ font-size: 15px;
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
 }
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 190px;
+}
 `
 export const Resources = styled.header`
 color: white;
 margin-left: 920px;
 margin-top: -109px;
 font-size: 15px;
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 185px;
+}
 `
 export const Blog = styled.header`
 &{
@@ -76,6 +103,10 @@ font-size: 15px;
 }
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
+}
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 205px;
 }
 `
 export const Developers = styled.header`
@@ -89,6 +120,10 @@ font-size: 15px;
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
 }
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 185px;
+}
 `
 export const Support = styled.header`
 &{
@@ -101,13 +136,22 @@ font-size: 15px;
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
 }
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 195px;
+}
 `
 export const Company = styled.header`
 color: white;
 margin-left: 1100px;
 margin-top: -109px;
 font-size: 15px;
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 190px;
+}
 `
+
 export const About = styled.header`
 &{
 color: ${(props) => props.theme.colors.text};
@@ -118,6 +162,10 @@ font-size: 15px;
 }
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
+}
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 200px;
 }
 `
 export const OurTeam = styled.header`
@@ -131,6 +179,10 @@ font-size: 15px;
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
 }
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 190px;
+}
 `
 export const Careers = styled.header`
 &{
@@ -143,6 +195,10 @@ font-size: 15px;
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
 }
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 195px;
+}
 `
 export const Contact = styled.header`
 &{
@@ -153,6 +209,10 @@ margin-top: 12px;
 font-size: 15px;
 &:hover{
     color: ${(props) => props.theme.colors.topButton}
+}
+@media(max-width: 425px){
+margin-top: 30px;
+margin-left: 195px;
 }
 `
 export const Facebook = styled.img`
@@ -166,17 +226,12 @@ cursor: pointer;
     color:red
     
 }
+@media(max-width: 425px){
+margin-top: 200px;
+margin-left: -1100px;
+}
 `
-export const Img = styled.img`
-&{
-position: relative;
-}
-&:hover{
-    color:red
-    
-}
 
-`
 export const Twitter = styled.img`
 position: relative;
 top: -140px;
